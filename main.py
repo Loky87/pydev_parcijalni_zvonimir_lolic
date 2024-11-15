@@ -238,8 +238,7 @@ def display_offers(offers: list)-> None:
         for offer in offers:
             if offer["offer_number"] == broj_ponude:
                 odabrana_ponuda = offer
-                break
-        print_offer(offer)
+                print_offer(offer)
 
 
 # Pomoćna funkcija za prikaz jedne ponude
