@@ -114,8 +114,6 @@ def create_new_offer(offers: list, products:list, customers:list)->None:
     with open("offers.json", "w") as file:
         json.dump(ponude, file, indent=4)
 
-    pass
-
 
 # TODO: Implementirajte funkciju za upravljanje proizvodima.
 def manage_products(products: list)-> None:
@@ -179,7 +177,6 @@ def manage_products(products: list)-> None:
         else:
             print("\n\nNetočan unos IDa")
 
-    pass
 
 
 # TODO: Implementirajte funkciju za upravljanje kupcima.
@@ -215,7 +212,6 @@ def manage_customers(customers: list)-> None:
         for kupac in kupci:
             print(f"\nIme: {kupac["name"]}, Email: {kupac["email"]}, VAT ID: {kupac["vat_id"]}")
 
-    pass
 
 
 # TODO: Implementirajte funkciju za prikaz ponuda.
@@ -244,8 +240,6 @@ def display_offers(offers: list)-> None:
                 odabrana_ponuda = offer
                 break
         print_offer(offer)
-
-    pass
 
 
 # Pomoćna funkcija za prikaz jedne ponude
